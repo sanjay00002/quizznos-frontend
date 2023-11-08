@@ -70,7 +70,7 @@ const SignIn = () => {
       {/* <h1 className="text-3xl text-center font-semibold my-7">Sign In</h1> */}
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
         <input type="text" placeholder='✉ E-mail ID ' className=' border p-3 rounded-lg' onChange={handleChange} id='email' />
-        <input type="text" placeholder='🗝️ Password' className=' border p-3 rounded-lg' onChange={handleChange} id='password' />
+        <input type="password" placeholder='🗝️ Password' className=' border p-3 rounded-lg' onChange={handleChange} id='password' />
         <span className=' text-pink-950 text-end p-4'>Forgot Password?</span>
         {renderSignInButton()}
         {/* <button disabled={loading} className=' bg-pink-900 text-white p-3 rounded-full uppercase hover:opacity-80 disabled:opacity-80'> {loading? 'Loading...' : 'Sign In'} </button> */}
