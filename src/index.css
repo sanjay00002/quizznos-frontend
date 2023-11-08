@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: lightgrey;
+    height: 100%;
+  }
+  
+  body, html {
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0.1em; /* WebKit-based browsers (Chrome, Safari) */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* WebKit-based browsers (Chrome, Safari) */
+  }
