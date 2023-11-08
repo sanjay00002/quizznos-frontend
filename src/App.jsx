@@ -11,7 +11,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 import TermsConditions from './pages/TermsConditions.jsx'
 import Footer from './pages/Footer.jsx'
 import Fantasyquiz from "./pages/Fantasyquiz.jsx"
-import Fantasyquiz1 from './pages/FantasyQuiz1.jsx'
+import Fantasyquiz1 from './pages/Fantasyquiz1.jsx'
 import Fantasyquiz2 from './pages/Fantasyquiz2.jsx'
 // Encyverse   --Realtor Ency
 const App=()=>{
